@@ -1,10 +1,8 @@
 #
-# system.prop for smdkc110
+# system.prop for galaxys4gmtd
 #
 
-rild.libpath=/system/lib/librilswitch.so
-rilswitch.vendorlibpath=/system/lib/libsec-ril.so
-rilswitch.ganlibpath=/system/lib/libganril.so
+rild.libpath=/system/lib/libsec-ril.so
 rild.libargs=-d /dev/ttyS0
 ro.sf.lcd_density=240
 
