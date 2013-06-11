@@ -46,8 +46,7 @@ TARGET_KERNEL_CONFIG := cyanogenmod_galaxys4gmtd_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/aries
 
 # Releasetools
-TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := ./device/samsung/galaxys4gmtd/releasetools/galaxys4gmtd_ota_from_target_files
-TARGET_RELEASETOOL_IMG_FROM_TARGET_SCRIPT := ./device/samsung/galaxys4gmtd/releasetools/galaxys4gmtd_img_from_target_files
+TARGET_RELEASETOOLS_EXTENSION := device/samsung/galaxys4gmtd
 
 # Camera
 USE_CAMERA_STUB := false
