@@ -130,8 +130,3 @@ BOARD_CHARGER_ENABLE_SUSPEND := true
 -include device/samsung/aries-common/Android.mk
 
 TARGET_OTA_ASSERT_DEVICE := aries,galaxys4g,galaxys4gmtd,SGH-T959V,SGH-T959W
-
-# TWRP Support
-DEVICE_RESOLUTION := 480x800
-TW_NO_REBOOT_BOOTLOADER := true
-TW_FLASH_FROM_STORAGE := true 
