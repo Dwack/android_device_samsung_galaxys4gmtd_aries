@@ -198,7 +198,8 @@ include frameworks/native/build/phone-hdpi-512-dalvik-heap.mk
 PRODUCT_TAGS += dalvik.gc.type-precise
 
 PRODUCT_COPY_FILES += \
-	device/samsung/galaxys4gmtd/updater.sh:updater.sh
+	device/samsung/galaxys4gmtd/updater.sh:updater.sh \
+	device/samsung/galaxys4gmtd/postrecoveryboot.sh:recovery/root/sbin/postrecoveryboot.sh
 
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4329/device-bcm.mk)
 
