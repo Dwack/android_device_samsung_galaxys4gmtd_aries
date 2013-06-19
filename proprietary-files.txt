@@ -1,8 +1,7 @@
 # GPS
 etc/gps.conf
-vendor/etc/gps.xml
 vendor/bin/gpsd
-vendor/lib/hw/gps.aries.so
+vendor/lib/libsgs4ghwlegacy.so
 lib/libclientgps.so
 
 # RIL
