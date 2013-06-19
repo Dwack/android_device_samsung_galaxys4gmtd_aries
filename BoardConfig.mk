@@ -20,6 +20,8 @@
 # Set this up here so that BoardVendorConfig.mk can override it
 
 
+# Import the aries-common BoardConfigCommon.mk
+include device/samsung/aries-common/BoardConfigCommon.mk
 
 # Kernel Config
 TARGET_KERNEL_CONFIG := cyanogenmod_galaxys4gmtd_defconfig
@@ -53,6 +55,4 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/galaxys4gmtd/bdroi
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/galaxys4gmtd/shbootimg.mk
 
 TARGET_OTA_ASSERT_DEVICE := aries,galaxys4g,galaxys4gmtd,SGH-T959V,SGH-T959W
-
-# Import the aries-common BoardConfigCommon.mk
-include device/samsung/aries-common/BoardConfigCommon.mk 
+ 
