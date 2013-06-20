@@ -1,7 +1,7 @@
 # GPS
-etc/gps.conf
-vendor/bin/gpsd
-vendor/lib/libsgs4ghwlegacy.so
+etc/vendor/samsung-agps/secgps.conf
+vendor/bin/samsung-gpsd
+vendor/lib/hw/gps.aries.so
 lib/libclientgps.so
 
 # RIL
