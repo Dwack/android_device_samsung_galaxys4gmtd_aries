@@ -1,5 +1,5 @@
 /*
- * Vibrant GPS Shim (forked off the generic shim by arcee)
+ * Galaxy S 4G GPS Shim (forked off the Vibrant gps shim which was forked by the generic shim by arcee)
  *
  * Copyright (C) 2006 Ricardo Cerquiera
  * Copyright (C) 2012 Daniel Bateman
@@ -18,7 +18,7 @@
  */
 
 #define LOG_NDEBUG 0
-#define LOG_TAG "VibrantGps"
+#define LOG_TAG "Aries-GPS"
 
 #include <stdlib.h>
 #include <utils/Log.h>
