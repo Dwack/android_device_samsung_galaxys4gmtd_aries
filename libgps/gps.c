@@ -17,8 +17,8 @@
  * limitations under the License.
  */
 
-#define LOG_NDEBUG 0
-#define LOG_TAG "Aries-GPS"
+#define LOG_NDEBUG 1
+#define LOG_TAG "AriesGPS"
 
 #include <stdlib.h>
 #include <utils/Log.h>
