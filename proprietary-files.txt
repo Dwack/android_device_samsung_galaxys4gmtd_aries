@@ -1,4 +1,5 @@
 # GPS
+vendor/etc/gps.xml
 etc/gps.conf
 vendor/bin/gpsd
 vendor/lib/libsgs4ghwlegacy.so
