@@ -26,4 +26,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_galaxys4gmtd.mk
+    $(LOCAL_DIR)/aokp_galaxys4gmtd.mk
